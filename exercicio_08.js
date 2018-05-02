@@ -9,7 +9,7 @@ console.log(arr);
 let getMax = function (array) {
     let maior = 0;
     for (let i = 0; i < array.length; i++) {
-        if (array[i] > maior) {
+        if (array[i] >= maior) {
             maior = array[i]
         }        
     }
